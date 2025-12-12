@@ -1,0 +1,129 @@
+{
+  "equipo": "Juventus FC",
+  "top_10_mejores_jugadores": [
+    {
+      "posicion": 1,
+      "nombre": "Alessandro Del Piero",
+      "nacionalidad": "Italia",
+      "posicion_campo": "Delantero/Mediapunta",
+      "periodo": "1993-2012",
+      "partidos": 705,
+      "goles": 290,
+      "logros": "Leyenda del club, capitán, ganador de múltiples Scudetti y Champions League",
+      "imagen_url": "https://www.shutterstock.com/editorial/image-editorial/OfDeE454NcTekd43MzczOQ==/italian-player-alessandro-del-piero-juventus-jubilates-440nw-8141175f.jpg",
+      "sugerencia_imagen": "Del Piero celebrando con el número 10, brazos abiertos - su celebración icónica"
+    },
+    {
+      "posicion": 2,
+      "nombre": "Gianluigi Buffon",
+      "nacionalidad": "Italia",
+      "posicion_campo": "Portero",
+      "periodo": "2001-2018, 2019-2021",
+      "partidos": 685,
+      "goles": 0,
+      "logros": "Mejor portero de la historia del club, ganador de 10 Scudetti con Juventus",
+      "imagen_url": "https://www.especialistasdeldeporte.com/wp-content/uploads/elementor/thumbs/FUTBOL_Buffon_1000_750-p70qumdpxoycu8rppy9nyz1svw5h7xwece010rdumk.jpg",
+      "sugerencia_imagen": "Buffon con los guantes levantados o gritando - imagen de líder en la portería"
+    },
+    {
+      "posicion": 3,
+      "nombre": "Michel Platini",
+      "nacionalidad": "Francia",
+      "posicion_campo": "Mediocampista",
+      "periodo": "1982-1987",
+      "partidos": 224,
+      "goles": 104,
+      "logros": "3 Balones de Oro consecutivos, líder del equipo en los años 80",
+      "imagen_url": "https://juventus.michel-platini.com/storage/2024/07/Michel-Platini-a-la-Juventus.png",
+      "sugerencia_imagen": "Platini con la camiseta rayada clásica de Juventus años 80"
+    },
+    {
+      "posicion": 4,
+      "nombre": "Pavel Nedved",
+      "nacionalidad": "República Checa",
+      "posicion_campo": "Mediocampista",
+      "periodo": "2001-2009",
+      "partidos": 327,
+      "goles": 65,
+      "logros": "Balón de Oro 2003, clave en múltiples títulos",
+      "imagen_url": "https://somosinvictos.com/wp-content/uploads/2019/02/PA.jpg",
+      "sugerencia_imagen": "Nedved corriendo con su característico cabello largo rubio"
+    },
+    {
+      "posicion": 5,
+      "nombre": "Paulo Dybala",
+      "nacionalidad": "Argentina",
+      "posicion_campo": "Delantero/Mediapunta",
+      "periodo": "2015-2022",
+      "partidos": 293,
+      "goles": 115,
+      "logros": "5 Scudetti, ídolo moderno, 'La Joya', máximo goleador argentino del club",
+      "imagen_url": "https://c4.wallpaperflare.com/wallpaper/357/105/174/soccer-paulo-dybala-argentinian-juventus-f-c-wallpaper-preview.jpg",
+      "sugerencia_imagen": "Dybala haciendo su celebración de la máscara con las manos"
+    },
+    {
+      "posicion": 6,
+      "nombre": "Giorgio Chiellini",
+      "nacionalidad": "Italia",
+      "posicion_campo": "Defensor",
+      "periodo": "2005-2022",
+      "partidos": 561,
+      "goles": 36,
+      "logros": "Defensor legendario, 9 Scudetti, símbolo de lealtad",
+      "imagen_url": "https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/12FD/production/_119716840_gc_get.jpg",
+      "sugerencia_imagen": "Chiellini en acción defensiva o celebrando con pasión"
+    },
+    {
+      "posicion": 7,
+      "nombre": "Roberto Baggio",
+      "nacionalidad": "Italia",
+      "posicion_campo": "Mediapunta/Delantero",
+      "periodo": "1990-1995",
+      "partidos": 200,
+      "goles": 115,
+      "logros": "Balón de Oro 1993, máximo ídolo en su época",
+      "imagen_url": "https://i.ytimg.com/vi/v1VlCAO1JJ8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC0BHuGCzSSzDr-GSfULt5TF2e1wg",
+      "sugerencia_imagen": "Baggio con su icónica coleta y camiseta de Juventus"
+    },
+    {
+      "posicion": 8,
+      "nombre": "Zinedine Zidane",
+      "nacionalidad": "Francia",
+      "posicion_campo": "Mediocampista",
+      "periodo": "1996-2001",
+      "partidos": 212,
+      "goles": 31,
+      "logros": "2 Scudetti, Champions League, elegancia y clase mundial",
+      "imagen_url": "https://img.asmedia.epimg.net/resizer/v2/VNDMF5GASBL6TOYLNHH65G7ERU.jpg?auth=a52ee5c56e626bcaf64ad5fa66787017278ed47fabca06fa9561552e70c972a6&width=644&height=362&smart=true",
+      "sugerencia_imagen": "Zidane controlando el balón con elegancia, camiseta Juventus"
+    },
+    {
+      "posicion": 9,
+      "nombre": "Gaetano Scirea",
+      "nacionalidad": "Italia",
+      "posicion_campo": "Defensor/Líbero",
+      "periodo": "1974-1988",
+      "partidos": 552,
+      "goles": 32,
+      "logros": "Capitán legendario, todos los trofeos posibles con Juventus",
+      "imagen_url": "https://www.firstonline.info/wp-content/uploads/2019/09/Gaetano_Scirea-juventus.jpg",
+      "sugerencia_imagen": "Scirea como capitán, imagen clásica años 70-80"
+    },
+    {
+      "posicion": 10,
+      "nombre": "Cristiano Ronaldo",
+      "nacionalidad": "Portugal",
+      "posicion_campo": "Delantero",
+      "periodo": "2018-2021",
+      "partidos": 134,
+      "goles": 101,
+      "logros": "2 Scudetti, capocannoniere de la Serie A, impacto global",
+      "imagen_url": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/09/16112924/Cristiano-Ronaldo-Juventus-5.jpg",
+      "sugerencia_imagen": "Cristiano celebrando un gol con Juventus, su característico 'Siuu'"
+    }
+  ],
+  "nota": "Esta lista incluye jugadores legendarios basados en su impacto, logros y legado en la Juventus. Se incluye a Paulo Dybala como uno de los grandes ídolos modernos del club",
+  "instrucciones_imagenes": "Puedes agregar las URLs de imágenes en el campo 'imagen_url'. Se recomienda usar imágenes de Wikimedia Commons o fuentes con licencia libre",
+  "fecha_creacion": "2025-10-16",
+  "ultima_actualizacion": "2025-10-16"
+}
