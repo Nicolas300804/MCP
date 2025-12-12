@@ -1,73 +1,117 @@
-/* Estilos para el componente Players */
-.players-container{
+/* Estilos para el componente Players - Estilo Juventus */
+.players-container {
   display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  padding: 1.25rem;
-  max-width: 1200px;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 2rem 1.25rem;
+  max-width: 1300px;
   margin: 0 auto;
   justify-items: center;
+  width: 100%;
 }
 
-.player-card{
-  background: linear-gradient(180deg,#ffffff,#f8f9fc);
-  border-radius: 12px;
+.player-card {
+  background: #ffffff;
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(12,24,50,0.06);
-  transition: transform .18s ease, box-shadow .18s ease;
+  box-shadow: 0 4px 12px rgba(12, 24, 50, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
-}
-
-.player-card:hover{
-  transform: translateY(-6px);
-  box-shadow: 0 18px 40px rgba(12,24,50,0.12);
-}
-
-.player-img{
+  border: 2px solid transparent;
+  cursor: pointer;
+  max-width: 320px;
   width: 100%;
-  height: 190px;
+}
+
+.player-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(12, 24, 50, 0.18);
+  border-color: #0c1832;
+}
+
+.player-img {
+  width: 100%;
+  height: 240px;
   object-fit: cover;
   display: block;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
 }
 
-.player-info{
-  padding: 14px 16px 18px;
+.player-info {
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  gap: 0.75rem;
 }
 
-.player-name{
-  font-size: 1.15rem;
-  margin: 0 0 8px 0;
-  color: #061b33;
+.player-name {
+  font-size: 1.35rem;
+  margin: 0;
+  color: #0c1832;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
 
-.player-stats{
+.player-stats {
   display: flex;
-  gap: 8px;
+  gap: 0.6rem;
   flex-wrap: wrap;
-  margin-bottom: 8px;
+  margin: 0.5rem 0;
   justify-content: center;
 }
 
-.stat{
-  background: rgba(6,27,51,0.05);
-  color: #0b2a4a;
-  padding: 6px 10px;
-  border-radius: 999px;
-  font-size: .9rem;
+.stat {
+  background: #0c1832;
+  color: #ffffff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
-.achievements{
-  margin: 6px 0 0 0;
-  color: #334154;
-  font-size: .92rem;
+.achievements {
+  margin: 0.5rem 0 0 0;
+  color: #5a6c7d;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
-@media (min-width: 900px){
-  .player-img{ height: 220px; }
-  .player-name{ font-size: 1.25rem; }
+/* Efecto de fila alterna */
+.player-card:nth-child(odd) {
+  background: #ffffff;
+}
+
+.player-card:nth-child(even) {
+  background: #f9f9f9;
+}
+
+@media (min-width: 768px) {
+  .players-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  
+  .player-img {
+    height: 260px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .players-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  
+  .player-img {
+    height: 280px;
+  }
+  
+  .player-name {
+    font-size: 1.5rem;
+  }
 }
