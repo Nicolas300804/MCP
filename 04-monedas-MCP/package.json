@@ -1,0 +1,16 @@
+{
+  "name": "04-monedas-mcp",
+  "version": "1.0.0",
+  "description": "MCP de conversion de y visualizacion de valores de monedas",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Gonzalez",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "zod": "^4.3.5"
+  }
+}
